@@ -529,7 +529,6 @@ for(i in 2:n_iter)
   ##############################################################################
   ##############################################################################
   # Metropolis-Hastings step for PHI 
-  # Update the S_l parameters  and Phi for each patient
   for(j in 1:N)
   {
     # Choose the right vector of beta
